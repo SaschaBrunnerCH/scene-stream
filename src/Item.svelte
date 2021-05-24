@@ -22,14 +22,14 @@
   <figure class="card-wide-image-wrap">
     {#if item.thumbnail}
       <a
-        href={`https://www.arcgis.com/apps/mapviewer/index.html?webmap=${item.id}`}
+        href={`https://www.arcgis.com/home/webscene/viewer.html?webscene=${item.id}`}
         target="_blank"
-        aria-label={`${item.title}: Open in map viewer`}
-        title={`${item.title}: Open in map viewer`}
+        aria-label={`${item.title}: Open in scene viewer`}
+        title={`${item.title}: Open in scene viewer`}
         ><img
           class="card-wide-image"
           src={`https://www.arcgis.com/sharing/rest/content/items/${item.id}/info/${item.thumbnail}`}
-          alt={`${item.title}: Map thumbanil`}
+          alt={`${item.title}: Scene thumbanil`}
         /></a
       >
     {/if}
@@ -38,7 +38,7 @@
   <div class="card-content">
     <h4 class="trailer-half">
       <a
-        href={`https://www.arcgis.com/apps/mapviewer/index.html?webmap=${item.id}`}
+        href={`https://www.arcgis.com/home/webscene/viewer.html?webscene=${item.id}`}
         target="_blank">{item.title}</a
       >
     </h4>

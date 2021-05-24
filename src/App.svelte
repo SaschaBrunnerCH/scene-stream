@@ -17,9 +17,9 @@
         class="btn btn-transparent margin-left-1"
         on:click={() => {
           Swal.fire({
-            title: "About Map Stream",
-            html: `<p>This web app shows the most recently updated public web maps in ArcGIS Online. More info on <a href="https://github.com/gavinr/map-stream">GitHub</a> or <a href="https://arcgis.com/home/item.html?id=a9c937a7960047d2b6084155bae3a4cc">ArcGIS Online</a>.</p>
-              <p>Created by <a href="https://gavinr.com">Gavin Rehkemper</a>.</p>`,
+            title: "About Scene Stream",
+            html: `<p>This web app shows the most recently updated public web scenes in ArcGIS Online. More info on <a href="https://github.com/SaschaBrunnerCH/scene-stream">GitHub</a>.</p>
+              <p>Created by <a href="https://gavinr.com">Gavin Rehkemper</a> and adopted for scene by <a href="https://github.com/SaschaBrunnerCH">Sascha Brunner</a>.</p>`,
             showCloseButton: true,
             showConfirmButton: false,
           });

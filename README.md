@@ -1,6 +1,8 @@
-# Map Stream
+# Scene Stream
 
-The most recently updated maps in ArcGIS Online. Check it out! -> https://map-stream.gavinr.com/
+This app is a fork from the [Map Stream](https://github.com/gavinr/map-stream) from <a href="https://gavinr.com">Gavin Rehkemper</a>.
+Instead of WebMap's this application streams WebScene's. --> The 3D world of ArcGIS.
+The most recently updated scenes in ArcGIS Online. Check it out! -> https://saschabrunnerch.github.io/scene-stream/
 
 ## Built With
 

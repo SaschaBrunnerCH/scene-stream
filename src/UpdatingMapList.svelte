@@ -37,7 +37,7 @@
 
   const looper = async () => {
     const searchOptions: ISearchOptions = {
-      q: '((type: "Web Map")) AND NOT type:"Web Mapping Application"',
+      q: '((type: "Web Scene"))',
       sortField: "modified",
       sortOrder: "desc",
       num: 50,
