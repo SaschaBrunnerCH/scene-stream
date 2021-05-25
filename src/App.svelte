@@ -35,7 +35,7 @@
       </div>
     </nav>
 
-    <h1>Map Stream</h1>
+    <h1>Scene Stream</h1>
 
     <UpdatingMapList
       on:resetTimer={(res) => {
